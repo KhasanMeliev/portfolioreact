@@ -1,0 +1,135 @@
+.PortfolioBox {
+  width: 100%;
+  background-color: #212121;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+}
+.PortfolioBox::-webkit-scrollbar {
+  height: 50px;
+  background-color: #212121;
+}
+.PortfolioBox::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+.PortfolioBox .upTxt {
+  width: 100%;
+  height: 130px;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.PortfolioBox .upTxt p {
+  text-align: center;
+  color: #888;
+}
+.PortfolioBox .upTxt h1 {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+.PortfolioBox .boxes {
+  width: 100%;
+  height: auto;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.PortfolioBox .boxes .categories {
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.PortfolioBox .boxes .categories button {
+  padding: 15px 20px;
+  background-color: #ff651c;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: 0.5s ease;
+  position: relative;
+}
+.PortfolioBox .boxes .categories button:hover {
+  background-color: inherit;
+  transform: rotate(10deg);
+}
+.PortfolioBox .boxes .cards {
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.PortfolioBox .boxes .cards .card {
+  width: 210px;
+  height: 210px;
+  background-color: inherit;
+  margin: 10px;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0px 0px 8px 5px #1615158b;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.image_overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(46, 42, 42);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.3s ease-in-out;
+  transition: 0.3s;
+}
+.image_overlay:hover {
+  opacity: 0.9;
+}
+.image_overlay h1 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+.cards .card .image_overlay button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+  background-color: #ff651c;
+  color: white;
+}
+.cards .card .image_overlay button:hover {
+  background-color: inherit;
+  color: white;
+}
+.image_overlay button a {
+  color: inherit;
+  text-decoration: none;
+}

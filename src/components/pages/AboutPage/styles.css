@@ -1,0 +1,314 @@
+.AboutBox {
+  width: 100%;
+  background-color: #212121;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.AboutBox::-webkit-scrollbar {
+  display: none;
+}
+
+.AboutBox .upTxt {
+  width: 100%;
+  height: 100px;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.AboutBox .upTxt p {
+  color: #888;
+  margin-top: 20px;
+}
+.AboutBox .upTxt h1 {
+  color: white;
+  font-size: 40px;
+  margin-top: 30px;
+}
+.AboutBox .aboutText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.AboutBox .aboutText .pic img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 85%);
+}
+.AboutBox .aboutText .txt {
+  width: 65%;
+  height: 370px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: inherit;
+}
+.AboutBox .aboutText .txt .texts {
+  width: 100%;
+  height: 80%;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.AboutBox .aboutText .txt .texts p {
+  color: white;
+  font-size: 25px;
+}
+.AboutBox .aboutText .txt .texts h1 {
+  color: white;
+}
+.AboutBox .aboutText .txt .texts h3 {
+  color: #888;
+  font-weight: 100;
+  font-size: 18px;
+}
+.AboutBox .skills {
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.AboutBox .skills .txt {
+  width: 100%;
+  height: 100px;
+  background: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.AboutBox .skills .txt p {
+  color: #888;
+  text-align: center;
+}
+.AboutBox .skills .txt h1 {
+  color: white;
+  font-size: 45px;
+  margin-top: 30px;
+}
+.AboutBox .skills .skillBox {
+  width: 80%;
+  height: 450px;
+  background-color: #232323;
+  box-shadow: 0 0 10px rgb(0 0 0 / 85%);
+  margin-top: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.AboutBox .skills .skillBox .card {
+  width: 98%;
+  height: 50px;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 8px;
+}
+.AboutBox .skills .skillBox .card label {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+.AboutBox .skills .skillBox .card progress {
+  width: 95%;
+  height: 25px;
+  accent-color: #ff651c;
+}
+.AboutBox .services {
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.AboutBox .services .txt {
+  width: 100%;
+  height: 130px;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.AboutBox .services .txt p {
+  margin: 30px;
+  color: #888;
+}
+.AboutBox .services .txt h1 {
+  font-size: 40px;
+  color: white;
+}
+.AboutBox .services .boxes {
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.AboutBox .services .boxes .card {
+  width: 25%;
+  height: 250px;
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 10px rgb(0 0 0 / 85%);
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 15px;
+  transition: 0.3s ease;
+  color: #ff651c;
+}
+.AboutBox .services .boxes .card .icon {
+  font-size: 45px;
+  color: white;
+}
+.AboutBox .services .boxes .card h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.AboutBox .services .boxes .card p {
+  color: #888;
+  text-align: center;
+  font-size: 18px;
+}
+.AboutBox .services .boxes .card p:hover {
+  color: #fff;
+}
+.AboutBox .services .boxes .card:hover {
+  background-color: #ff651c;
+  color: white;
+}
+
+.AboutBox .facts {
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.AboutBox .facts .txt {
+  width: 100%;
+  height: 100px;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.AboutBox .facts .txt p {
+  color: #888;
+}
+.AboutBox .facts .txt h1 {
+  color: white;
+  font-size: 40px;
+}
+.AboutBox .facts .boxes {
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.AboutBox .facts .boxes .card {
+  width: 20%;
+  height: 100px;
+  background-color: inherit;
+  color: #ff651c;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+  border: 2px solid #ff651c;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 85%);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+.AboutBox .facts .boxes .card h1 {
+  font-size: 40px;
+}
+.AboutBox .facts .boxes .card p {
+  color: #888;
+}
+.AboutBox .facts .boxes .card p:hover {
+  color: #fff;
+}
+.AboutBox .facts .boxes .card:hover {
+  background-color: #ff651c;
+  color: white;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .AboutBox .aboutText {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .AboutBox .aboutText .txt .texts p {
+    text-align: center;
+  }
+  .AboutBox .aboutText .txt .texts h1 {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+  }
+  .AboutBox .aboutText .txt .texts h3 {
+    text-align: center;
+    font-size: 15px;
+  }
+  .AboutBox .aboutText .pic img {
+    width: 200px;
+  }
+  .AboutBox .skills {
+    margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 1075px) {
+  .AboutBox .services .boxes .card {
+    width: 60%;
+  }
+  .AboutBox .services .boxes .card h1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 865px) {
+  .AboutBox .facts .boxes .card {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 595px) {
+  .AboutBox .services .boxes .card {
+    width: 80%;
+  }
+}

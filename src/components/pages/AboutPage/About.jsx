@@ -147,7 +147,7 @@ function About() {
             <h1>Web Devolopment</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              industry
             </p>
           </div>
           <div className="card">
